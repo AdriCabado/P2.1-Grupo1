@@ -1,0 +1,18 @@
+<!-- 2024-11-20 - Primer prototipo hecho por Adrián González Cabado, sin revisión -->
+# Cronología del proyecto
+
+En este markdown se intentara apuntar, mas o menos, lo que vamos haciendo cada uno en el proyecto hasta su fecha de entrega.
+
+## 2024-11-20 Toma de contacto/Primera reunión
+
+- En la primera reunion asignamos, en un principio, los roles de cada uno en el proyecto, comentando que intentaremos hacer y dando ideas.
+- Los roles asignado han sido:
+  - Project Manager --> Manu
+  - Product Manager + Developer --> César
+  - Documentación + Testing --> Adrián
+- No dimos elegido un nombre para el repositorio del proyecto (ya creado con un nombre generico), ni tener una idea clara del videojuego que vamos hacer, pero mañana intentaremos dejar todo aclarado y por escrito.
+- César, que será el encargado principal del desarrollo en unity, propuso varios assets a utilizar que revisaremos mañana. Los assets son:
+  - https://chierit.itch.io/elementals-leaf-ranger
+  - https://samuellee.itch.io/reaper-animated-pixel-art
+  - https://elthen.itch.io/2d-pixel-art-cacodaemon-sprites
+  - https://papoycore.itch.io/bat
