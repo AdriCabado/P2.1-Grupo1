@@ -5,7 +5,7 @@ PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
    2. Subtitulo    
    3. Catchy quote
    4. Información adicional	
-       1. Nombre del desarrollador/nombre de la empresa
+       1. Nombre de la desarrolladora/empresa
        2. Autor/supervisor del GDD
 2. Historia de la evolución del diseño
    1.  Version 1.0
@@ -16,8 +16,8 @@ PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
        1. High Concept (concepto del videojuego pero resumido)
        2. Características clave
            1. Un jugador
-           2. Multijugador
-           3. Editor
+           2. ~~Multijugador~~
+           3. ~~Editor~~
        3. Preguntas de Diseño
            1. El Punto y Filosofía del Videojuego
            2. ¿Que es diferente?
@@ -47,9 +47,9 @@ PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
    1.  Historia y Narrativa
        1. Backstory y narrativa
        2. Progresión en el juego
-       3. Secuencias cinematográficas
-          1. Actores
-          2. Guion
+       3. ~~Secuencias cinematográficas~~
+          1. ~~Actores~~
+          2. ~~Guion~~
    2.  Mundo del juego
        1. Aspecto general y sensación del mundo
        2. Áreas
