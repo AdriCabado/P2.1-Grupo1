@@ -20,3 +20,4 @@
 *.mdb
 *.opendb
 *.VC.db
+*.vsconfig
