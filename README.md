@@ -32,6 +32,7 @@ Además queda detallada una guía de creación de issues en caso de problemas co
   - Error al intentar ejecutar el código o utilizar dependencias.
   - Incertidumbre sobre cómo implementar una funcionalidad.
   - Dudas sobre cómo resolver un conflicto de ramas en Git.
+  - Merge en main (Una vez por semana)
 - **Resolución:**
   - Usar canales dedicados en Discord o una videollamada rápida.
   - Crear una **issue** detallada en GitHub para documentar y dar seguimiento al problema.
@@ -73,6 +74,7 @@ Los sprites de los personajes deberían aparecer correctamente en la pantalla pr
 
 5. **Recursos:**
 - Captura del error: [ruta_del_archivo](enlace)
+
 
 
 
