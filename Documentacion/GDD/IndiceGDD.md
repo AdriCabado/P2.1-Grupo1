@@ -35,12 +35,12 @@ PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
    2. Combate:  Acciones, Interacción y Comunicación
    <!-- 4. Economía -->
    3. Flujo de Cámara y Pantalla
-6. <!-- Opcional en caso de mucho tiempo libre
+ <!-- Opcional en caso de mucho tiempo libre
         Opciones del juego
    1.  Opciones Generales
    2.  Rejugar y Guardados 
    3.  Trucos y Easter Eggs -->
-7. Historia, Ambientación y Personajes
+6. Historia, Ambientación y Personajes
    1.  Historia y Narrativa
        1. Backstory y narrativa
        2. Progresión en el juego
@@ -49,13 +49,13 @@ PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
        2. Área
    3.  Personajes
    
-8. Niveles
+7. Niveles
   <!--  Nivel del Tutorial -->
    1.  Niveles (los puntos de abajo se podrian utilizar para la guía del juego)
        1. Synopsis
        2. Objetivos
        3. Acciones
-9. Interfaz
+8. Interfaz
    1.  Sistema de ayuda
    2.  GUI (Interfaz Gráfica de Usuario)
    3.  Sistema de Control
@@ -63,11 +63,11 @@ PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
        1. SFX (Efectos de sonido)
        2. Musica
 
-10. Arte del juego
+9. Arte del juego
     1. Assets clave
     2. Estilo previsto
 
-11. Informacion Técnica
+10. Informacion Técnica
     1. Hardware y software de desarrollo
        1. Motor de juego
        2. Software clave
