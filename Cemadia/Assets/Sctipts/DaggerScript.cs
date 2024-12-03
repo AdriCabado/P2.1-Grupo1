@@ -4,37 +4,33 @@ using UnityEngine;
 
 public class DaggerScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Elf"))
         {
-            StartCoroutine(ChangeColorTemporarily(other.gameObject));
-            
+            // Inicia la corutina para cambiar el color
+            StartCoroutine(ChangeColorTemporarily(other));
+            SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+            Color color = spriteRenderer.color;
+            color.a = 0f; // Establece la transparencia a 0 (invisible)
+            spriteRenderer.color = color;
         }
-       
     }
-      private IEnumerator ChangeColorTemporarily(GameObject elf)
+
+    private IEnumerator ChangeColorTemporarily(Collider2D elf)
     {
-        // Cambiar el color a rojo
-        SpriteRenderer spriteRenderer = elf.GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = Color.red;
-        }
-
-        // Esperar 1 segundo
-        yield return new WaitForSeconds(1f);
-
-        // Cambiar el color a blanco
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = Color.white;
-        }
+        // Obtén el SpriteRenderer del objeto colisionado
+        
+        
+        
+            // Cambia el color a rojo
+            GameObject.Find("idle_1").GetComponent<SpriteRenderer>().color=Color.red;
+            // Espera 1 segundo
+            yield return new WaitForSeconds(0.3f);
+            Debug.Log("hittt");
+            // Cambia el color a blanco
+           
+            GameObject.Find("idle_1").GetComponent<SpriteRenderer>().color=Color.white;        
+        Destroy(gameObject);        
     }
 }

@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   limiteElf: -2.54
-  limiteTree: 0
+  limiteTree: -2.7
   tree: {fileID: 4761644421411762392, guid: 682941be0b6a14049acd4d155e5717ce, type: 3}
   animator: {fileID: 7444813652081636458}
 --- !u!70 &692073159144568610
