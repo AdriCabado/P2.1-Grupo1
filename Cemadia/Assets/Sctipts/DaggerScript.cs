@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class DaggerScript : MonoBehaviour
 {
+    private GameObject enemySpawner;
+    private void Start() {
+        enemySpawner=GameObject.Find("EnemySpawner");
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Elf"))
         {
+            enemySpawner.GetComponent<EnemySpawner>().lifeLost();
             // Inicia la corutina para cambiar el color
             StartCoroutine(ChangeColorTemporarily(other));
             SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
             Color color = spriteRenderer.color;
             color.a = 0f; // Establece la transparencia a 0 (invisible)
             spriteRenderer.color = color;
+
         }
     }
 

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7818855457190662713}
   - component: {fileID: 7780094254103779263}
   m_Layer: 0
-  m_Name: Enemy2 1
+  m_Name: Enemy2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   daggerPrefac: {fileID: 6600847154569739522, guid: dff8ab9c047ed9f47bcb4e8e8b1ae01e, type: 3}
   daggerSpawnPoint: {fileID: 8860646775438123909}
   daggerSpeed: 10
-  velocidad: 5
+  velocidad: 2
   moveLimit: 6
   animator: {fileID: 6332314103457410124}
 --- !u!1 &2534037000293667839

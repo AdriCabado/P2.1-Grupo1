@@ -13,9 +13,12 @@ public class EnemyMove : MonoBehaviour
     private SpriteRenderer spriteRendererElf;
     private SpriteRenderer spriteRendererTree;
     private bool treeAttack;
+
+    private GameObject enemySpawner;
     private void Start() {
         spriteRendererElf=GameObject.Find("idle_1").GameObject().GetComponent<SpriteRenderer>();
         spriteRendererTree=GameObject.Find("tree5").GameObject().GetComponent<SpriteRenderer>();
+        enemySpawner=GameObject.Find("EnemySpawner");
         //Comprobando si el ataque va para el arbol o el elfo dependiendo de la altura
         if(transform.position.y>=-2){
             treeAttack=true;
@@ -41,6 +44,7 @@ public class EnemyMove : MonoBehaviour
             Debug.Log("Daño");
         }else{
             spriteRendererElf.color=Color.red;
+            enemySpawner.GetComponent<EnemySpawner>().lifeLost();
         }
         
         
