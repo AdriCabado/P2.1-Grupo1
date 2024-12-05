@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -20,11 +21,19 @@ public class ElfAnimationScript : MonoBehaviour
     private int index;
     [SerializeField] private GameObject elf;
     [SerializeField] private Animator animator;
+    [SerializeField] private GameObject[] teclas;
+    private Vector3[] positionKeyboards;
     void Start() {
+        
         enums=new List<Enum>();
         enums.Add(TypeAttack.UPARROW);
         enums.Add(TypeAttack.MELEE);
         enums.Add(TypeAttack.ARROW);
+    }
+    private void postionTeclas(Vector3[] positionKeyboards){
+        for (int i = 0; i < teclas.Length; i++){
+            positionKeyboards[i] = teclas[i].transform.position;
+        }
     }
     void Update()
     {
@@ -33,11 +42,14 @@ public class ElfAnimationScript : MonoBehaviour
             TypeAttack tipo=AlternarElemento();
             Debug.Log(tipo);
             if(tipo.Equals(TypeAttack.MELEE)){
-                animator.Play("MeleeAtack");    
+                animator.Play("MeleeAtack");
+                SwapTeclas();
             }else if(tipo.Equals(TypeAttack.UPARROW)){
                 animator.Play("ArrowUpAttack");
+                SwapTeclas();
             }else if(tipo.Equals(TypeAttack.ARROW)){
                 animator.Play("ArrowAttack");
+                SwapTeclas();
             }
             Debug.Log("ataca");
         }
@@ -86,4 +98,22 @@ public class ElfAnimationScript : MonoBehaviour
         }
       return (TypeAttack)enums[index];
     }
+    private void SwapTeclas(){
+        // Almacenar la posición y el tamaño del objeto 3
+        Vector3 posTemp = teclas[2].transform.position;
+        Vector3 scaleTemp = teclas[2].transform.localScale;
+
+        
+        // Intercambiar posiciones y tamaños
+        teclas[2].transform.position = teclas[1].transform.position;
+        teclas[2].transform.localScale = teclas[1].transform.localScale;
+        //teclas[2].GetComponent<SpriteRenderer>().color=new Color (255, 255, 255, 30);
+
+        teclas[1].transform.position = teclas[0].transform.position;
+        teclas[1].transform.localScale = teclas[0].transform.localScale;
+
+        teclas[0].transform.position = posTemp;
+        teclas[0].transform.localScale = scaleTemp;
+    }
+    
 }
