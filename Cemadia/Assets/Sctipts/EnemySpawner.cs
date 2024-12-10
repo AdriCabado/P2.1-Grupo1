@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
+    private int score=0;
+    [SerializeField] Text text;
     public GameObject enemyPrefab1; // Enemigo que spawnea desde un solo punto
     public GameObject enemySign1;
     public GameObject enemyPrefab2; // Enemigo que spawnea desde dos puntos
@@ -19,7 +22,13 @@ public class EnemySpawner : MonoBehaviour
     void Start() {
         InvokeRepeating("SpawnEnemies", 0f, spawnInterval);
     }
-        
+
+
+    public void addScore(int points)
+    {
+        score+=points;
+        text.text=score.ToString("D6");
+    }
     public void lifeLost(){
         spareLives--;
 
@@ -37,7 +46,7 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemies()
     {
-        if(Random.value<0.5){
+        if(Random.value<0.3){
         // Spawnear el primer enemigo desde un solo punto
         Instantiate(enemyPrefab1, spawnPoint1.position, Quaternion.identity);
         GameObject gb= Instantiate(enemySign1, enemy1ArrowPoint.position, Quaternion.identity);

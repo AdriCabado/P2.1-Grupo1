@@ -2,11 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class elfMovement : MonoBehaviour
 {
     
     //[SerializeField] private Animator animator;
+    [SerializeField] GameObject enemySpawner;
     [SerializeField] private float radioAttackMelee;
     [SerializeField] private float radioAttackArrow;
     [SerializeField] private Transform meleeController;
@@ -24,11 +26,12 @@ public class elfMovement : MonoBehaviour
     }
     private void HitAttack(Collider2D[] objetos){
         foreach(Collider2D collider in objetos){
-            
+            Debug.Log("asdfas");
             if(collider.CompareTag("Enemy")){
-                GameObject.Find("tree5").GetComponent<SpriteRenderer>().color=Color.white;
                 GameObject.Find("idle_1").GetComponent<SpriteRenderer>().color=Color.white;
+                enemySpawner.GetComponent<EnemySpawner>().addScore(150);
                 Destroy(collider.gameObject);
+                Debug.Log("Muerto");
             }
         }
     }
