@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class ElfAnimationScript : MonoBehaviour
 {
+    private int teclaVisible=1;
     private bool OnHitSword=false;
     private bool OnHitArrow=false;
     //Variable que le da cooldown al ataque
@@ -40,7 +41,6 @@ public class ElfAnimationScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)&& AttackIsActive)
         {
             TypeAttack tipo=AlternarElemento();
-            Debug.Log(tipo);
             if(tipo.Equals(TypeAttack.MELEE)){
                 animator.Play("MeleeAtack");
                 SwapTeclas();
@@ -51,7 +51,6 @@ public class ElfAnimationScript : MonoBehaviour
                 animator.Play("ArrowAttack");
                 SwapTeclas();
             }
-            Debug.Log("ataca");
         }
         if(OnHitSword){
             elf.GetComponent<elfMovement>().SwordAttack();
@@ -61,7 +60,6 @@ public class ElfAnimationScript : MonoBehaviour
         }
     }
     public void ArrowAttack2(){
-        Debug.Log("hola");
         GetComponent<ArrowShootScript>().Shoot();
     }
     public void AtaqueEspada(){
@@ -82,11 +80,9 @@ public class ElfAnimationScript : MonoBehaviour
     }
     public void AttackActive(){
         AttackIsActive=true;
-        Debug.Log("No activo");
     }
     public void AttackNoActive(){
         AttackIsActive=false;
-        Debug.Log("Activo");
     }
 
     private TypeAttack AlternarElemento()
@@ -99,6 +95,12 @@ public class ElfAnimationScript : MonoBehaviour
       return (TypeAttack)enums[index];
     }
     private void SwapTeclas(){
+        //Hacer tecla antes visible menos visible 
+        teclas[teclaVisible].GetComponent<SpriteRenderer>().color=new Color (1f,1f,1f, 0.1f);
+        teclaVisible=SwapAlphaTecla(teclaVisible);
+        //Hacer tecla visible
+        teclas[teclaVisible].GetComponent<SpriteRenderer>().color=new Color (1f, 1f, 1f, 1f);
+
         // Almacenar la posición y el tamaño del objeto 3
         Vector3 posTemp = teclas[2].transform.position;
         Vector3 scaleTemp = teclas[2].transform.localScale;
@@ -107,13 +109,18 @@ public class ElfAnimationScript : MonoBehaviour
         // Intercambiar posiciones y tamaños
         teclas[2].transform.position = teclas[1].transform.position;
         teclas[2].transform.localScale = teclas[1].transform.localScale;
-        //teclas[2].GetComponent<SpriteRenderer>().color=new Color (255, 255, 255, 30);
+        
 
         teclas[1].transform.position = teclas[0].transform.position;
         teclas[1].transform.localScale = teclas[0].transform.localScale;
 
         teclas[0].transform.position = posTemp;
         teclas[0].transform.localScale = scaleTemp;
+
+        
+        
     }
-    
+    private int SwapAlphaTecla(int positionTecla){
+       return (positionTecla + 1) % 3;
+    }
 }

@@ -41,7 +41,6 @@ public class EnemyMove : MonoBehaviour
     public void Damage(){
         if(treeAttack){
             spriteRendererTree.color=Color.red;
-            Debug.Log("Daño");
         }else{
             spriteRendererElf.color=Color.red;
             enemySpawner.GetComponent<EnemySpawner>().lifeLost();
@@ -52,7 +51,6 @@ public class EnemyMove : MonoBehaviour
     public void DamageFinish(){
         if(treeAttack){
             spriteRendererTree.color=Color.white;
-            Debug.Log("Daño acabado");
         }else{
             spriteRendererElf.color=Color.white;
         }
