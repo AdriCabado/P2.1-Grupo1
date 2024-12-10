@@ -26,7 +26,6 @@ public class elfMovement : MonoBehaviour
         foreach(Collider2D collider in objetos){
             
             if(collider.CompareTag("Enemy")){
-                Debug.Log("Daño");
                 GameObject.Find("tree5").GetComponent<SpriteRenderer>().color=Color.white;
                 GameObject.Find("idle_1").GetComponent<SpriteRenderer>().color=Color.white;
                 Destroy(collider.gameObject);

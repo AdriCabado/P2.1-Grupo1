@@ -11,7 +11,6 @@ public class ArrowShootScript : MonoBehaviour
    
     public void Shoot()
     {
-        Debug.Log("arrowPrefab: " + arrowPrefab);
         // Crear la flecha en la posición y rotación del punto de salida
         GameObject arrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, arrowSpawnPoint.rotation);
         

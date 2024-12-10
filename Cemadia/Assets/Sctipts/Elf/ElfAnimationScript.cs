@@ -1,11 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class ElfAnimationScript : MonoBehaviour
 {
+    private int teclaVisible=1;
     private bool OnHitSword=false;
     private bool OnHitArrow=false;
     //Variable que le da cooldown al ataque
@@ -20,26 +22,35 @@ public class ElfAnimationScript : MonoBehaviour
     private int index;
     [SerializeField] private GameObject elf;
     [SerializeField] private Animator animator;
+    [SerializeField] private GameObject[] teclas;
+    private Vector3[] positionKeyboards;
     void Start() {
+        
         enums=new List<Enum>();
         enums.Add(TypeAttack.UPARROW);
         enums.Add(TypeAttack.MELEE);
         enums.Add(TypeAttack.ARROW);
+    }
+    private void postionTeclas(Vector3[] positionKeyboards){
+        for (int i = 0; i < teclas.Length; i++){
+            positionKeyboards[i] = teclas[i].transform.position;
+        }
     }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space)&& AttackIsActive)
         {
             TypeAttack tipo=AlternarElemento();
-            Debug.Log(tipo);
             if(tipo.Equals(TypeAttack.MELEE)){
-                animator.Play("MeleeAtack");    
+                animator.Play("MeleeAtack");
+                SwapTeclas();
             }else if(tipo.Equals(TypeAttack.UPARROW)){
                 animator.Play("ArrowUpAttack");
+                SwapTeclas();
             }else if(tipo.Equals(TypeAttack.ARROW)){
                 animator.Play("ArrowAttack");
+                SwapTeclas();
             }
-            Debug.Log("ataca");
         }
         if(OnHitSword){
             elf.GetComponent<elfMovement>().SwordAttack();
@@ -49,7 +60,6 @@ public class ElfAnimationScript : MonoBehaviour
         }
     }
     public void ArrowAttack2(){
-        Debug.Log("hola");
         GetComponent<ArrowShootScript>().Shoot();
     }
     public void AtaqueEspada(){
@@ -70,11 +80,9 @@ public class ElfAnimationScript : MonoBehaviour
     }
     public void AttackActive(){
         AttackIsActive=true;
-        Debug.Log("No activo");
     }
     public void AttackNoActive(){
         AttackIsActive=false;
-        Debug.Log("Activo");
     }
 
     private TypeAttack AlternarElemento()
@@ -85,5 +93,34 @@ public class ElfAnimationScript : MonoBehaviour
             index = 0;
         }
       return (TypeAttack)enums[index];
+    }
+    private void SwapTeclas(){
+        //Hacer tecla antes visible menos visible 
+        teclas[teclaVisible].GetComponent<SpriteRenderer>().color=new Color (1f,1f,1f, 0.1f);
+        teclaVisible=SwapAlphaTecla(teclaVisible);
+        //Hacer tecla visible
+        teclas[teclaVisible].GetComponent<SpriteRenderer>().color=new Color (1f, 1f, 1f, 1f);
+
+        // Almacenar la posición y el tamaño del objeto 3
+        Vector3 posTemp = teclas[2].transform.position;
+        Vector3 scaleTemp = teclas[2].transform.localScale;
+
+        
+        // Intercambiar posiciones y tamaños
+        teclas[2].transform.position = teclas[1].transform.position;
+        teclas[2].transform.localScale = teclas[1].transform.localScale;
+        
+
+        teclas[1].transform.position = teclas[0].transform.position;
+        teclas[1].transform.localScale = teclas[0].transform.localScale;
+
+        teclas[0].transform.position = posTemp;
+        teclas[0].transform.localScale = scaleTemp;
+
+        
+        
+    }
+    private int SwapAlphaTecla(int positionTecla){
+       return (positionTecla + 1) % 3;
     }
 }

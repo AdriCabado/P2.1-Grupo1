@@ -26,7 +26,7 @@ public class EnemySpawner : MonoBehaviour
         //Comprobamos si spareLives es menor que 0
         //por si se da el caso raro de que dos fantasmas llamen en el mismo 
         //frame a esta función y spareLives es 1
-        if(spareLives <= 0) {
+        if(spareLives < 0) {
             Destroy(GameObject.Find("Elf"));
             fire.SetActive(true);
             Debug.Log("Perdichessssss");
