@@ -18,11 +18,19 @@ public class FlechaScript : MonoBehaviour
         {
             if(other.name.Equals("Enemy2(Clone)")){
                 enemySpawner.GetComponent<EnemySpawner>().addScore(150);
+                other.GetComponent<Enemy2Script>().volando=true;
+            }else{
+                other.GetComponent<EnemyMove>().volando=true;
             }
             enemySpawner.GetComponent<EnemySpawner>().addScore(150);
             Debug.Log("golpe flecha");
             GameObject.Find("idle_1").GetComponent<SpriteRenderer>().color=Color.white;
-            Destroy(other.gameObject);
+            
+            Rigidbody2D rb=other.GetComponent<Rigidbody2D>();
+            rb.constraints =RigidbodyConstraints2D.None;
+            Vector2 impactDirection = new Vector2(0.6f, 0.5f);
+            rb.AddForce(impactDirection.normalized * 10f, ForceMode2D.Impulse); 
+            rb.AddTorque(19, ForceMode2D.Impulse);
             Destroy(gameObject);
         }
        

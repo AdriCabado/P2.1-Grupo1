@@ -20,9 +20,11 @@ public class ElfAnimationScript : MonoBehaviour
     public List<Enum> enums;
     private TypeAttack ataque;
     private int index;
+    private bool muerto=false;
     [SerializeField] private GameObject elf;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject[] teclas;
+    [SerializeField] private AudioSource audioSource;
     private Vector3[] positionKeyboards;
     void Start() {
         
@@ -38,17 +40,20 @@ public class ElfAnimationScript : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)&& AttackIsActive)
+        if (Input.GetKeyDown(KeyCode.Space)&& AttackIsActive && !muerto)
         {
             TypeAttack tipo=AlternarElemento();
             if(tipo.Equals(TypeAttack.MELEE)){
                 animator.Play("MeleeAtack");
+                audioSource.Play();
                 SwapTeclas();
             }else if(tipo.Equals(TypeAttack.UPARROW)){
                 animator.Play("ArrowUpAttack");
+                audioSource.Play();
                 SwapTeclas();
             }else if(tipo.Equals(TypeAttack.ARROW)){
                 animator.Play("ArrowAttack");
+                audioSource.Play();
                 SwapTeclas();
             }
         }
@@ -84,7 +89,12 @@ public class ElfAnimationScript : MonoBehaviour
     public void AttackNoActive(){
         AttackIsActive=false;
     }
-
+    //freezear para que cuando muera se queda ene el suelo tirado
+    public void Freeze()
+    {
+        muerto=true;
+        animator.speed = 0; // Congela la animación
+    }
     private TypeAttack AlternarElemento()
     {
        index++;

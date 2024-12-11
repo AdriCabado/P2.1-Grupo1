@@ -1,8 +1,6 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class elfMovement : MonoBehaviour
 {
@@ -15,7 +13,10 @@ public class elfMovement : MonoBehaviour
 
     [SerializeField] private Transform arrowController;
     
-    public void ArrowAttack(){
+    private void Start() {
+        
+    }
+        public void ArrowAttack(){
         Collider2D[] objetos=Physics2D.OverlapCircleAll(arrowController.position, radioAttackArrow);
         HitAttack(objetos);
     }
@@ -30,7 +31,12 @@ public class elfMovement : MonoBehaviour
             if(collider.CompareTag("Enemy")){
                 GameObject.Find("idle_1").GetComponent<SpriteRenderer>().color=Color.white;
                 enemySpawner.GetComponent<EnemySpawner>().addScore(150);
-                Destroy(collider.gameObject);
+                collider.GetComponent<EnemyMove>().volando=true;
+                Rigidbody2D rb=collider.GetComponent<Rigidbody2D>();
+                rb.constraints =RigidbodyConstraints2D.None;
+                Vector2 impactDirection = new Vector2(0.6f, 0.5f);
+                rb.AddForce(impactDirection.normalized * 10f, ForceMode2D.Impulse); 
+                rb.AddTorque(19, ForceMode2D.Impulse);
                 Debug.Log("Muerto");
             }
         }

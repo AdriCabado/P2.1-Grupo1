@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
+    //Si salió volando ya no puede seguir atacando
+    public bool volando=false;
    public float velocidad = 5f; // Velocidad de movimiento
     public float limiteElf; // Límite máximo para moverse a la izquierda
     public float limiteTree;
@@ -26,10 +28,16 @@ public class EnemyMove : MonoBehaviour
     }
     void Update()
     {
+        if(transform.position.y <= -10){
+            Destroy(gameObject);
+        }
+        if(volando){
+            animator.Play("EnemyAnimation");
+        }
         // Verifica si ha llegado al límite izquierdo, si es así ataca
-        if (transform.position.x <= limiteElf && !treeAttack){
+        if (transform.position.x <= limiteElf && !treeAttack && !volando){
             animator.Play("Attackanim");
-        }else if(transform.position.x <= limiteTree && treeAttack){
+        }else if(transform.position.x <= limiteTree && treeAttack && !volando){
             animator.Play("Attackanim");
         }else{
             transform.Translate(Vector3.left * velocidad * Time.deltaTime);

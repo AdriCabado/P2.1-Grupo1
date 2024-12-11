@@ -36,7 +36,7 @@ public class EnemySpawner : MonoBehaviour
         //por si se da el caso raro de que dos fantasmas llamen en el mismo 
         //frame a esta función y spareLives es 1
         if(spareLives < 0) {
-            Destroy(GameObject.Find("Elf"));
+            GameObject.Find("idle_1").GetComponent<Animator>().Play("Death");
             fire.SetActive(true);
             Debug.Log("Perdichessssss");
         }else{

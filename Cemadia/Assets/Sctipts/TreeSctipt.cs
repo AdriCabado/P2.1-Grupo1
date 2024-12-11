@@ -22,6 +22,7 @@ public class TreeSctipt : MonoBehaviour
                     selectedBranch = branches[randomIndex];
                     Debug.Log("Cortada rama "+selectedBranch.name);
                     if(selectedBranch.GetComponent<BranchScript>().isCut.Equals(false)){
+                        
                         numberOfBranches--;
                         cutted=false;
                     }
@@ -38,6 +39,7 @@ public class TreeSctipt : MonoBehaviour
             }
         }else{
             fire.SetActive(true);
+            GameObject.Find("idle_1").GetComponent<Animator>().Play("Death");
         }
     }
     
