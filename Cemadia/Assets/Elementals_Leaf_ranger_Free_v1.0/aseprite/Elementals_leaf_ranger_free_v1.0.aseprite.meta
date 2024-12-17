@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -5308,2072 +5310,2331 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 49
         height: 44
       spriteId: 3dbeb91c11b9030428249824f9ee3dde
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 0b4b904816cfc784a809dd7a4724aee3
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 49
         height: 44
       spriteId: 3e1aee9a49001bc4e9cbc122a756ad7e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 06539b68505ac124d8967a0f6988a24c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 917cb292166788b4e8ef68a4562c630e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 45
         height: 44
       spriteId: 49e84a4a067af094ca1c92a4635c69ce
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 45
         height: 43
       spriteId: 75392a33c72f171468422ea599fae7ad
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 45
         height: 43
       spriteId: c69dfa8d2198f41448b249c869020032
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 45
         height: 43
       spriteId: 21ce95d45c6f17d47b74271bfc1d01b2
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 45
         height: 43
       spriteId: 488b6a63f95eff442ab35a3e648a6c6e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 46
         height: 43
       spriteId: cdb7c4c4373872f4ead962cb0ce01f78
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 42c89a7c0df0c89458406921376a6cfe
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 48
         height: 43
       spriteId: 6c4a739ff26c810438762389ea26466c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 7
         width: 51
         height: 38
       spriteId: 97dcfd6121c1abc4a9c8ec0f178f8f37
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 9
         width: 46
         height: 36
       spriteId: 5812a87f18ca06f468da471ced142f4b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 47
         height: 43
       spriteId: c48d7bc5fbeeaf3478edaad1930ea4bf
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 43
         height: 42
       spriteId: 3547db2f285bb2c488c69cb829147846
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 44
         height: 43
       spriteId: 5e460f8634e240142b4a53c2f0185620
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 7
         width: 47
         height: 38
       spriteId: 6d6af8d53a7f7c649a41fa03f47eab2c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 5
         width: 45
         height: 40
       spriteId: 5045423bf2e2e7047a75ad77ff0fdc23
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 46
         height: 43
       spriteId: 46b01fe5cafdff44682155d74136d95a
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 46
         height: 42
       spriteId: 10d0f62494c291944970fab275db55be
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 45
         height: 36
       spriteId: 61928df298b22944d8878b0ca4892af3
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 1
         width: 49
         height: 35
       spriteId: 5e902551c5bb69c4da977d3c8ab46aea
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 4
         width: 43
         height: 48
       spriteId: e4f9c87235c5dc146b368bd5b3a7e166
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 4
         width: 37
         height: 48
       spriteId: ba3e5aa7d3d4cbf45a85ec079dc279e6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 4
         width: 44
         height: 48
       spriteId: 2a26c10efb112274eac1a90ea889404c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 4
         width: 43
         height: 48
       spriteId: b6427cbbdd6fb804fbc5f2f5038ddf28
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 4
         width: 37
         height: 48
       spriteId: cdbc5e1063492784ea68f173d1aaea0b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 4
         width: 44
         height: 48
       spriteId: 754adc9d2a8975f48a9e23fd0dd70382
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 7
         width: 44
         height: 45
       spriteId: 479fd9847dbb640489325714a2f3295b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 10
         width: 47
         height: 42
       spriteId: bfdbcd2ed9c5d0f44a3fdc12f02a12aa
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 8
         width: 53
         height: 47
       spriteId: d4f10d53e80aa97439b5a9a56ea22314
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 6
         width: 46
         height: 56
       spriteId: ee7bd1b3ce84da6428ea52b6742b109d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 129
         y: 3
         width: 40
         height: 78
       spriteId: 3a516ae45d1255e449ae1727ad5a7d05
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 133
         y: 3
         width: 36
         height: 78
       spriteId: aee2fc2630600c548934be3b5e04cbc4
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 131
         y: 3
         width: 38
         height: 79
       spriteId: 17fff384d8eed6d41ab9f6e4c18482a7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 129
         y: 3
         width: 40
         height: 78
       spriteId: a84b965119a441b4185d59c0c5ff02e5
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 133
         y: 3
         width: 36
         height: 78
       spriteId: d3c868dcdb79c984a9a1048271b1a492
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 131
         y: 3
         width: 38
         height: 79
       spriteId: d8169dbf21a6d6a4ca1c2ab80328704d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 1
         width: 41
         height: 68
       spriteId: 639170df4a772c84ea50358549ddd16f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 57
         height: 36
       spriteId: a1b817bbe1a4bea4bb4f01e788fe17d7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 49
         height: 35
       spriteId: ddc597e35c6d5cb469d7001475d208c8
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 1
         width: 44
         height: 40
       spriteId: 3cd2b00200d283f40a822d243cd57560
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 45
         height: 36
       spriteId: f2a0bf262b0e9d445972271de93160f4
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 1
         width: 49
         height: 35
       spriteId: 42f65d329ddcb0842bb3504dff1e74c5
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 4
         width: 43
         height: 48
       spriteId: 08806e200f3b9f24fb224a7c2a732fdd
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 4
         width: 37
         height: 48
       spriteId: 46d97dbb6b7ddcd43afa1894d0b5511f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 4
         width: 44
         height: 48
       spriteId: a82ea7937a21c6f43ad211d0e8d9978d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 4
         width: 43
         height: 48
       spriteId: 214feaaaf617bf444a0c93873df82bd4
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 4
         width: 37
         height: 48
       spriteId: fa0c8d6b8d3a1ff40a4f892df812727d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 4
         width: 44
         height: 48
       spriteId: 603e624840acecd48b507d73bd8b773b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 7
         width: 44
         height: 45
       spriteId: 83fba743f7b38074f8e18fa0844f098b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 10
         width: 48
         height: 42
       spriteId: 6f4850dd2291d1848a1bac3d00c918c9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 8
         width: 57
         height: 44
       spriteId: 5805c14fbbb80e440bf865d553e9ca7b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_55
+    - name: Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 117
         y: 8
         width: 56
         height: 44
       spriteId: efb6693da0ab32d418882fd929025ed6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 8
         width: 58
         height: 44
       spriteId: 07c082bc4d8db3842bc98f1358c850c4
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 1
         width: 81
         height: 51
       spriteId: d72d61aa19cdf39459a052279c93767f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_58
+    - name: Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 84
         height: 52
       spriteId: aba654bc5f4dc6449b7d8224b184f418
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_59
+    - name: Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 80
         height: 52
       spriteId: 05e4819f9ce4e124ebf4519f7fd913a3
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_60
+    - name: Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 85
         height: 59
       spriteId: cd357d5b03095f54988a66099d19bc25
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_61
+    - name: Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 100
         height: 61
       spriteId: 8f55297cc20e4f8438485b70f787d8ad
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_62
+    - name: Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 129
         y: 1
         width: 90
         height: 80
       spriteId: 4d43a29f1b439e2429aec5bfd6ebf168
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_63
+    - name: Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 133
         y: 1
         width: 86
         height: 80
       spriteId: 217d0b93eaf2882498a4e8888d6e6ca9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_64
+    - name: Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: 131
         y: 1
         width: 88
         height: 81
       spriteId: b7791ef2ffaab1146b231e16009ab65a
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_65
+    - name: Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: 129
         y: 3
         width: 40
         height: 78
       spriteId: 272d7661669b34a4e94153c0e9d43cb9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_66
+    - name: Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: 133
         y: 3
         width: 36
         height: 78
       spriteId: f18c1ee87c6a7f9439d8af60bfe1634b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_67
+    - name: Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: 131
         y: 3
         width: 38
         height: 79
       spriteId: 7d57843ba877c924bb9b9ff32dc401e5
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_68
+    - name: Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 1
         width: 41
         height: 68
       spriteId: 8076a8ff921890b45a86ce0e43af4ab9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_69
+    - name: Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 57
         height: 36
       spriteId: 898be0a637e13794d805f90e6499a824
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_70
+    - name: Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 49
         height: 35
       spriteId: 3982e9ba15c1eb44bbd6fff9ccde452b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_71
+    - name: Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 1
         width: 44
         height: 40
       spriteId: 7704c23572bb4804c8e8be496f604a6c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_72
+    - name: Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 54
         height: 38
       spriteId: a749b238b38c8ba41aeb3844fa9e6e57
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_73
+    - name: Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 39
         height: 30
       spriteId: 63b3978b64adf62489d7f4ac8a0a737f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_74
+    - name: Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 2
         width: 38
         height: 28
       spriteId: fe7d55eae914f074aa57d58742ce005e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_75
+    - name: Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: 112
         y: 1
         width: 42
         height: 32
       spriteId: 0d533b0238d512f45875693e52040ca5
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_76
+    - name: Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 40
         height: 26
       spriteId: e5658ba48a48d4e4d88c55d87430d2c1
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_77
+    - name: Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 42
         height: 30
       spriteId: 64d7e4e2fc2d38f49a51b2369a653b52
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_78
+    - name: Frame_78
       frameIndex: 78
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 43
         height: 35
       spriteId: b17289224d4bce34c94c51e4ca5787b6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_79
+    - name: Frame_79
       frameIndex: 79
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 1
         width: 44
         height: 40
       spriteId: 0562e29a60b1e02479a2d429a67844a3
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_80
+    - name: Frame_80
       frameIndex: 80
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 55
         height: 45
       spriteId: b8b1ffb6b72eead4ead5838a7b23c2d6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_81
+    - name: Frame_81
       frameIndex: 81
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 71
         height: 40
       spriteId: 9458a298f6d0b5e4996e82a5b517a549
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_82
+    - name: Frame_82
       frameIndex: 82
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 70
         height: 40
       spriteId: 8ed5985e3c66d8f4a86caeb3ad1278ec
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_83
+    - name: Frame_83
       frameIndex: 83
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 68
         height: 40
       spriteId: 1bee12634c1d5754ea5286634f63132a
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_84
+    - name: Frame_84
       frameIndex: 84
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 70
         height: 40
       spriteId: a691abc92a0c25c488ddde0745eab1fc
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_85
+    - name: Frame_85
       frameIndex: 85
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 71
         height: 40
       spriteId: 58fc3fafc9811464eab5d7fa3effdf86
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_86
+    - name: Frame_86
       frameIndex: 86
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 70
         height: 40
       spriteId: f43565b0a96f8b648910e3838efd290f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_87
+    - name: Frame_87
       frameIndex: 87
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 68
         height: 40
       spriteId: ea6c110a90938b543b90be7a7b57e302
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_88
+    - name: Frame_88
       frameIndex: 88
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 70
         height: 40
       spriteId: 6f463e28c2d788143a6cc1587aedbd6c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_89
+    - name: Frame_89
       frameIndex: 89
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 52
         height: 41
       spriteId: 8905ed0bcc5a0f04e88d81180672fe47
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_90
+    - name: Frame_90
       frameIndex: 90
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 43
         height: 35
       spriteId: 948478382dcd9e946a224730a9614932
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_91
+    - name: Frame_91
       frameIndex: 91
+      additiveSortOrder: 0
       cellRect:
         x: 124
         y: 1
         width: 44
         height: 40
       spriteId: e82b6d3f3b44d4b4781342689d47b65c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_92
+    - name: Frame_92
       frameIndex: 92
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 49
         height: 44
       spriteId: 707ec8669cab7514393342cce7e451fa
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_93
+    - name: Frame_93
       frameIndex: 93
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 42
         height: 43
       spriteId: ed23c32ac4563604f8166c8b86673a50
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_94
+    - name: Frame_94
       frameIndex: 94
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 46
         height: 42
       spriteId: e3d322c22c838d244a29a74ca3a562f3
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_95
+    - name: Frame_95
       frameIndex: 95
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 46
         height: 42
       spriteId: 50273450c5d518c488782181f896825e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_96
+    - name: Frame_96
       frameIndex: 96
+      additiveSortOrder: 0
       cellRect:
         x: 126
         y: 1
         width: 43
         height: 42
       spriteId: cd85b3a8a0a5e284a9ac6a16e919b3df
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_97
+    - name: Frame_97
       frameIndex: 97
+      additiveSortOrder: 0
       cellRect:
         x: 128
         y: 1
         width: 71
         height: 42
       spriteId: c4d97196b4ae63840a831d17ce6450e4
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_98
+    - name: Frame_98
       frameIndex: 98
+      additiveSortOrder: 0
       cellRect:
         x: 150
         y: 1
         width: 75
         height: 42
       spriteId: 6a0c8be21b2287a47bd8a3a89e477840
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_99
+    - name: Frame_99
       frameIndex: 99
+      additiveSortOrder: 0
       cellRect:
         x: 161
         y: 1
         width: 63
         height: 43
       spriteId: 6caf10482bc6bbb4eac3147db3a80836
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_100
+    - name: Frame_100
       frameIndex: 100
+      additiveSortOrder: 0
       cellRect:
         x: 161
         y: 1
         width: 63
         height: 43
       spriteId: baa3b540cfab5464d8e8035006ba14ea
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_101
+    - name: Frame_101
       frameIndex: 101
+      additiveSortOrder: 0
       cellRect:
         x: 135
         y: 1
         width: 38
         height: 42
       spriteId: 4fce0589f43f6c343ad62a8ce0f9d909
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_102
+    - name: Frame_102
       frameIndex: 102
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 7372ecd60b732c0448b67085913162ba
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_103
+    - name: Frame_103
       frameIndex: 103
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 44
         height: 44
       spriteId: ac06ff405b3da7740bccb4451556a3b7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_104
+    - name: Frame_104
       frameIndex: 104
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 46
         height: 47
       spriteId: 5d946c9fc1e4a2f489b2d5db6a87562a
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_105
+    - name: Frame_105
       frameIndex: 105
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 47
         height: 61
       spriteId: d30ff7f41ffda0c4381d1b733bbcfc21
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_106
+    - name: Frame_106
       frameIndex: 106
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 57
       spriteId: 3ba0335f4bc90044f8b51b182bd084e1
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_107
+    - name: Frame_107
       frameIndex: 107
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 53
       spriteId: c696778c26949de429ab6d56c59241fe
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_108
+    - name: Frame_108
       frameIndex: 108
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 52
       spriteId: 596bfad96c87ecc4299602298db4c1ea
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_109
+    - name: Frame_109
       frameIndex: 109
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 57
         height: 50
       spriteId: fe5df781302e03f4bbedff3c478b48e2
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_110
+    - name: Frame_110
       frameIndex: 110
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 59
         height: 50
       spriteId: 2cfa693e067d91046bde7d4cfc055686
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_111
+    - name: Frame_111
       frameIndex: 111
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 71
         height: 53
       spriteId: c649654389d12204c9eac25bcaddeeca
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_112
+    - name: Frame_112
       frameIndex: 112
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 70
         height: 53
       spriteId: ccaadc5ffb96d7a479a9e61e100eb1d6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_113
+    - name: Frame_113
       frameIndex: 113
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 71
         height: 53
       spriteId: c9f5b3cc75d64b646a7bd5ab5d4eb4ab
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_114
+    - name: Frame_114
       frameIndex: 114
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 50
         height: 53
       spriteId: 70fc36926d2f5ff46893dc87d18c0663
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_115
+    - name: Frame_115
       frameIndex: 115
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 40
         height: 46
       spriteId: 50255e1ebb69fb64685a0ad79239553e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_116
+    - name: Frame_116
       frameIndex: 116
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 41
         height: 44
       spriteId: 36bcbf0a43bacb8479bbf9e397a44342
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_117
+    - name: Frame_117
       frameIndex: 117
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 46
         height: 44
       spriteId: 5c4ebd05b555c9e49bdc70956687cdde
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_118
+    - name: Frame_118
       frameIndex: 118
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 44
         height: 44
       spriteId: 89972dbad0aec4f4888316f654147c70
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_119
+    - name: Frame_119
       frameIndex: 119
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 46
         height: 47
       spriteId: c28e4fee1deb5b240a52e66abf9b4614
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_120
+    - name: Frame_120
       frameIndex: 120
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 47
         height: 61
       spriteId: 21d128ded8dfc404186c95089473e243
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_121
+    - name: Frame_121
       frameIndex: 121
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 57
       spriteId: abba252b42c61c747b18fbf1932239a3
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_122
+    - name: Frame_122
       frameIndex: 122
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 53
       spriteId: 53d9bb68d01e0004e919846d6da950c1
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_123
+    - name: Frame_123
       frameIndex: 123
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 52
       spriteId: 2a7f00d744c8ded4baaa9a9bbc895b98
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_124
+    - name: Frame_124
       frameIndex: 124
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 57
         height: 50
       spriteId: 0b86d7fc864f30e40b8746d8dae98fb0
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_125
+    - name: Frame_125
       frameIndex: 125
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 59
         height: 50
       spriteId: 327ac5458e3e8ff47b17307cbec2df70
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_126
+    - name: Frame_126
       frameIndex: 126
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 115
         height: 53
       spriteId: 36f418885874df34abdf09da5e0f2647
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_127
+    - name: Frame_127
       frameIndex: 127
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 127
         height: 53
       spriteId: 73cb538b729e6ae4a8d801d68d3e40ef
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_128
+    - name: Frame_128
       frameIndex: 128
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 142
         height: 53
       spriteId: f5a0848bc631b0547814ad7280296ceb
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_129
+    - name: Frame_129
       frameIndex: 129
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 157
         height: 53
       spriteId: b7b46d3b67b2ed44897c6a3b7065785d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_130
+    - name: Frame_130
       frameIndex: 130
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 160
         height: 46
       spriteId: 6cae9c4328109224fab0aa83f6820916
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_131
+    - name: Frame_131
       frameIndex: 131
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 162
         height: 44
       spriteId: 379569701ff4924418b4de2677aee53e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_132
+    - name: Frame_132
       frameIndex: 132
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 167
         height: 44
       spriteId: b5dafd2460b799346bb7e0e79ba57481
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_133
+    - name: Frame_133
       frameIndex: 133
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 169
         height: 44
       spriteId: 44203643701fca3448942b10c4a2a6ab
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_134
+    - name: Frame_134
       frameIndex: 134
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 44
         height: 44
       spriteId: b9a45ec7636e098468ada585149bc254
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_135
+    - name: Frame_135
       frameIndex: 135
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 46
         height: 47
       spriteId: 45ef3151f80d2fa4593d077b55be4049
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_136
+    - name: Frame_136
       frameIndex: 136
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 47
         height: 61
       spriteId: eff99efbb9d7cea43b19f85d6f290a37
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_137
+    - name: Frame_137
       frameIndex: 137
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 57
       spriteId: b392eda88a73b34448987819784915a4
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_138
+    - name: Frame_138
       frameIndex: 138
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 53
       spriteId: d341034c86ec879429fda67a49e59bdb
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_139
+    - name: Frame_139
       frameIndex: 139
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 52
         height: 52
       spriteId: 434f266c5e1adab49b3abad562cc059e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_140
+    - name: Frame_140
       frameIndex: 140
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 57
         height: 50
       spriteId: 489ebd5b9c528464bbbadd9481368daa
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_141
+    - name: Frame_141
       frameIndex: 141
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 59
         height: 50
       spriteId: edf98b6aefd59464cbad8b4de4f82457
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_142
+    - name: Frame_142
       frameIndex: 142
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 130
         height: 53
       spriteId: 4ccaa3ca8f2562943b9c17b3c1be1936
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_143
+    - name: Frame_143
       frameIndex: 143
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 139
         height: 53
       spriteId: 27cba58965bf1094aa70122b2974e289
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_144
+    - name: Frame_144
       frameIndex: 144
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 142
         height: 53
       spriteId: 2b40a8831af8d2c43b5680fdd5fa52da
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_145
+    - name: Frame_145
       frameIndex: 145
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 155
         height: 53
       spriteId: 207ce801de9199545b7a49df1bc5c0f1
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_146
+    - name: Frame_146
       frameIndex: 146
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 155
         height: 57
       spriteId: ac41412f23d1ec24f8d87562be66dd15
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_147
+    - name: Frame_147
       frameIndex: 147
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 159
         height: 63
       spriteId: 50af237d094e964488d3aade16d274e7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_148
+    - name: Frame_148
       frameIndex: 148
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 1
         width: 167
         height: 69
       spriteId: 36910b645aa416c4faa7b7e89c056ac3
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_149
+    - name: Frame_149
       frameIndex: 149
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 147
         height: 44
       spriteId: 2ad08f98efece6443b898d455a36d541
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_150
+    - name: Frame_150
       frameIndex: 150
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 36
         height: 43
       spriteId: bc12e69d55bf8a043a7980ace61e47e5
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_151
+    - name: Frame_151
       frameIndex: 151
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 33
         height: 43
       spriteId: 8b9d1a8891cb7b941a1e4c1b4b895782
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_152
+    - name: Frame_152
       frameIndex: 152
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 39
         height: 41
       spriteId: c6fe25368aa37fd44bf2baa66b789032
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_153
+    - name: Frame_153
       frameIndex: 153
+      additiveSortOrder: 0
       cellRect:
         x: 111
         y: 1
         width: 50
         height: 39
       spriteId: c18f5c83c788f8545bb5da082e2618b6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_154
+    - name: Frame_154
       frameIndex: 154
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 1
         width: 43
         height: 52
       spriteId: 20f5a02c457048e43be3eb5c2fef3728
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_155
+    - name: Frame_155
       frameIndex: 155
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 40
         height: 52
       spriteId: 5c97e52ef918b694183c4f375702cc8f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_156
+    - name: Frame_156
       frameIndex: 156
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 40
         height: 52
       spriteId: d226d7f22c4994c47adc65a9a60b8770
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_157
+    - name: Frame_157
       frameIndex: 157
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 49
         height: 73
       spriteId: 72753284ed0035c4c92108d0dea12fa5
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_158
+    - name: Frame_158
       frameIndex: 158
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 67
         height: 88
       spriteId: c8e6de232c8599048984ccbab506e44b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_159
+    - name: Frame_159
       frameIndex: 159
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 66
         height: 101
       spriteId: 04419a88b93376d4ab31389686b8eab9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_160
+    - name: Frame_160
       frameIndex: 160
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 32
         height: 42
       spriteId: 647068e9d20d8ea4daacd8c82b8abd00
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_161
+    - name: Frame_161
       frameIndex: 161
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: b3b14cd8a13a32546ad74e282c20fad4
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_162
+    - name: Frame_162
       frameIndex: 162
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 36
         height: 43
       spriteId: 4efeca21df095974387db4eb9edf59db
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_163
+    - name: Frame_163
       frameIndex: 163
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 33
         height: 43
       spriteId: 0d32da6823628f84a879f419dd0d7c99
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_164
+    - name: Frame_164
       frameIndex: 164
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 39
         height: 41
       spriteId: de22b1aa19e4fd041b130e308942a759
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_165
+    - name: Frame_165
       frameIndex: 165
+      additiveSortOrder: 0
       cellRect:
         x: 111
         y: 1
         width: 50
         height: 39
       spriteId: 98a9d71bd8ca59a42942eb79fe84c402
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_166
+    - name: Frame_166
       frameIndex: 166
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 1
         width: 43
         height: 52
       spriteId: 7584e4a598991444c9aea407fc3be726
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_167
+    - name: Frame_167
       frameIndex: 167
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 40
         height: 52
       spriteId: f313a5f17b2f85e41978718b2aa651c8
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_168
+    - name: Frame_168
       frameIndex: 168
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 40
         height: 52
       spriteId: ae9d531fdfd0aeb42a52f2d8d205d170
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_169
+    - name: Frame_169
       frameIndex: 169
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 1
         width: 49
         height: 73
       spriteId: 3c111da08d55bff49ad2c17c8848edfd
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_170
+    - name: Frame_170
       frameIndex: 170
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 67
         height: 88
       spriteId: ede2dbed758a5ed4e828499fdaf0db16
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_171
+    - name: Frame_171
       frameIndex: 171
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 66
         height: 101
       spriteId: d6400a21dccd1cb4ab7eace33ef39eb1
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_172
+    - name: Frame_172
       frameIndex: 172
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 32
         height: 42
       spriteId: c11fa38e230fdc145ba0dd76ec39cd79
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_173
+    - name: Frame_173
       frameIndex: 173
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: c63255995bb166c48b27907e9f09b040
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_174
+    - name: Frame_174
       frameIndex: 174
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 49
         height: 44
       spriteId: c0b24ae3d29f0824ea4abc38aac6c25e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_175
+    - name: Frame_175
       frameIndex: 175
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 6e1c6ae3b571b6f42892355f553bb25e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_176
+    - name: Frame_176
       frameIndex: 176
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 49
         height: 44
       spriteId: 01c0cad9a48417248819fc2d84e766c8
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_177
+    - name: Frame_177
       frameIndex: 177
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: c825e67161db39040b567842df2e4f75
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_178
+    - name: Frame_178
       frameIndex: 178
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: fc6776d9dfd06304ab0dc07154c31651
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_179
+    - name: Frame_179
       frameIndex: 179
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 45
         height: 44
       spriteId: cc2d36a74f796d1409db194f680683dc
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_180
+    - name: Frame_180
       frameIndex: 180
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 45
         height: 43
       spriteId: 051b5429c530b6e44875afbc81f79b3c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_181
+    - name: Frame_181
       frameIndex: 181
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 145
         height: 119
       spriteId: 114c4490e2ff0dd488cbf052998ee9be
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_182
+    - name: Frame_182
       frameIndex: 182
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 148
         height: 122
       spriteId: 2c8ab0dec709bcb478227f06a58d4f79
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_183
+    - name: Frame_183
       frameIndex: 183
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 148
         height: 120
       spriteId: f719252909040864d9f2e3f06c727442
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_184
+    - name: Frame_184
       frameIndex: 184
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 149
         height: 119
       spriteId: f2b1edf7b0bf657419afc02cd8100d11
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_185
+    - name: Frame_185
       frameIndex: 185
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 151
         height: 118
       spriteId: 1077e6b52d51fba45b3fdab9fc9ebc51
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_186
+    - name: Frame_186
       frameIndex: 186
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 155
         height: 122
       spriteId: 96dfd7dbf32ffde4e9dc5042a004033b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_187
+    - name: Frame_187
       frameIndex: 187
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 155
         height: 122
       spriteId: 3ebdb498fe45014458282b2c4696dc22
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_188
+    - name: Frame_188
       frameIndex: 188
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 163
         height: 120
       spriteId: 80cc74ff3f76e9e4ebea8cca15eaa075
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_189
+    - name: Frame_189
       frameIndex: 189
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 157
         height: 120
       spriteId: 683933274bba31e4faf27a5697a94240
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_190
+    - name: Frame_190
       frameIndex: 190
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 152
         height: 53
       spriteId: fc5f618869a1270428267c6130c77783
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_191
+    - name: Frame_191
       frameIndex: 191
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 151
         height: 44
       spriteId: a4e51cb6ff919fa4d9325d6492485b70
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_192
+    - name: Frame_192
       frameIndex: 192
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 145
         height: 43
       spriteId: 9feb62e32d7631d4d900a6b3d0a232d9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_193
+    - name: Frame_193
       frameIndex: 193
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 124
         height: 43
       spriteId: 7d181cd8af90a1f46bd41b407bb1a0ef
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_194
+    - name: Frame_194
       frameIndex: 194
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 106
         height: 43
       spriteId: b1180720729423745a65f2b939421374
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_195
+    - name: Frame_195
       frameIndex: 195
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 101
         height: 43
       spriteId: e0cf34a81a16e5e4092bfb4bdc876266
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_196
+    - name: Frame_196
       frameIndex: 196
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 102
         height: 43
       spriteId: 79d207bc09be39849a8f59d4fbc7ecbe
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_197
+    - name: Frame_197
       frameIndex: 197
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 102
         height: 44
       spriteId: 0063bfe3e6b39ba4891fda971d40872b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_198
+    - name: Frame_198
       frameIndex: 198
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 39
         height: 42
       spriteId: 45154d94856d9df4390a4a2f7674db8b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_199
+    - name: Frame_199
       frameIndex: 199
+      additiveSortOrder: 0
       cellRect:
         x: 123
         y: 1
         width: 37
         height: 39
       spriteId: f4d016771a6359e459f075dc8a6884f6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_200
+    - name: Frame_200
       frameIndex: 200
+      additiveSortOrder: 0
       cellRect:
         x: 117
         y: 1
         width: 47
         height: 36
       spriteId: c53e036005193484bb36f2d181b9f735
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_201
+    - name: Frame_201
       frameIndex: 201
+      additiveSortOrder: 0
       cellRect:
         x: 100
         y: 1
         width: 61
         height: 35
       spriteId: f9a90883cf47d5c4f80bb84f9b39586e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_202
+    - name: Frame_202
       frameIndex: 202
+      additiveSortOrder: 0
       cellRect:
         x: 104
         y: 1
         width: 59
         height: 39
       spriteId: ade8c6dfc69dacd40b9276e96f10dd86
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_203
+    - name: Frame_203
       frameIndex: 203
+      additiveSortOrder: 0
       cellRect:
         x: 105
         y: 1
         width: 55
         height: 35
       spriteId: f91743a76bf06614c9b78e3ca9e76687
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_204
+    - name: Frame_204
       frameIndex: 204
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 63
         height: 45
       spriteId: 292dfa96126bb034ca8af6f62c40fcbf
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_205
+    - name: Frame_205
       frameIndex: 205
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 64
         height: 47
       spriteId: 8170aa849095ff04c90160e109f4984f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_206
+    - name: Frame_206
       frameIndex: 206
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 72
         height: 58
       spriteId: 15b8a147199198044b3a9179120d4a91
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_207
+    - name: Frame_207
       frameIndex: 207
+      additiveSortOrder: 0
       cellRect:
         x: 108
         y: 1
         width: 180
         height: 35
       spriteId: e030f49d6c6bd6d408898730f0f5e1a9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_208
+    - name: Frame_208
       frameIndex: 208
+      additiveSortOrder: 0
       cellRect:
         x: 102
         y: 1
         width: 186
         height: 35
       spriteId: 90b0f6540133c494fbd5f01efa2b7308
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_209
+    - name: Frame_209
       frameIndex: 209
+      additiveSortOrder: 0
       cellRect:
         x: 94
         y: 1
         width: 194
         height: 29
       spriteId: a503e17bd9a296746a400e7579ed38d7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_210
+    - name: Frame_210
       frameIndex: 210
+      additiveSortOrder: 0
       cellRect:
         x: 93
         y: 1
         width: 195
         height: 29
       spriteId: b73671a7920a4e04eb0fba99f3bd3367
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_211
+    - name: Frame_211
       frameIndex: 211
+      additiveSortOrder: 0
       cellRect:
         x: 93
         y: 1
         width: 41
         height: 29
       spriteId: 95623aaf8b736464e8514db3b793bf6e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_212
+    - name: Frame_212
       frameIndex: 212
+      additiveSortOrder: 0
       cellRect:
         x: 101
         y: 1
         width: 47
         height: 38
       spriteId: 6cb3e27f174101b48b3e2b0c65e88dfa
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_213
+    - name: Frame_213
       frameIndex: 213
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 39
         height: 40
       spriteId: a01f7e19f9bfd044fa7d451e8c4e79c6
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_214
+    - name: Frame_214
       frameIndex: 214
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 4a475ee627a2c344dbc7a8e26e57c64d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_215
+    - name: Frame_215
       frameIndex: 215
+      additiveSortOrder: 0
       cellRect:
         x: 126
         y: 1
         width: 35
         height: 47
       spriteId: 4e1b3643ae7772a42946a3ecf2d31dc7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_216
+    - name: Frame_216
       frameIndex: 216
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 33
         height: 47
       spriteId: afb38c73936eed5489eee54010f73898
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_217
+    - name: Frame_217
       frameIndex: 217
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 39
         height: 42
       spriteId: 150f657ba4ce35a439847fe659ae9e39
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_218
+    - name: Frame_218
       frameIndex: 218
+      additiveSortOrder: 0
       cellRect:
         x: 139
         y: 1
         width: 45
         height: 52
       spriteId: 8044fbb9673818e469d3bc14aefb862b
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_219
+    - name: Frame_219
       frameIndex: 219
+      additiveSortOrder: 0
       cellRect:
         x: 140
         y: 1
         width: 44
         height: 52
       spriteId: c508e06da5cbbc64bb6299ed8e10c604
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_220
+    - name: Frame_220
       frameIndex: 220
+      additiveSortOrder: 0
       cellRect:
         x: 140
         y: 1
         width: 47
         height: 53
       spriteId: 0ba6febee95ef62498d075e2e8f8969e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_221
+    - name: Frame_221
       frameIndex: 221
+      additiveSortOrder: 0
       cellRect:
         x: 140
         y: 1
         width: 53
         height: 54
       spriteId: 683a3932969fb014c886d66fb92a07cd
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_222
+    - name: Frame_222
       frameIndex: 222
+      additiveSortOrder: 0
       cellRect:
         x: 139
         y: 1
         width: 52
         height: 65
       spriteId: d9d8e52be5e92b04b887681fde189438
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_223
+    - name: Frame_223
       frameIndex: 223
+      additiveSortOrder: 0
       cellRect:
         x: 139
         y: 1
         width: 52
         height: 65
       spriteId: aaf298bbb785c824ca510ef048fa2031
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_224
+    - name: Frame_224
       frameIndex: 224
+      additiveSortOrder: 0
       cellRect:
         x: 139
         y: 1
         width: 52
         height: 65
       spriteId: 7a52da8f8f6a3c840af6892da127f852
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_225
+    - name: Frame_225
       frameIndex: 225
+      additiveSortOrder: 0
       cellRect:
         x: 139
         y: 1
         width: 52
         height: 65
       spriteId: dfac30acc87cee34e8fc66c6da6ca3b0
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_226
+    - name: Frame_226
       frameIndex: 226
+      additiveSortOrder: 0
       cellRect:
         x: 139
         y: 1
         width: 52
         height: 65
       spriteId: 53ebdb53d57bb7a489031b369061eaf9
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_227
+    - name: Frame_227
       frameIndex: 227
+      additiveSortOrder: 0
       cellRect:
         x: 139
         y: 1
         width: 52
         height: 65
       spriteId: 8ba8feb5ccc051b4f8d95197dee866d8
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_228
+    - name: Frame_228
       frameIndex: 228
+      additiveSortOrder: 0
       cellRect:
         x: 140
         y: 1
         width: 53
         height: 54
       spriteId: f07c43561c6979b448d67aab3a4ae482
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_229
+    - name: Frame_229
       frameIndex: 229
+      additiveSortOrder: 0
       cellRect:
         x: 140
         y: 1
         width: 47
         height: 53
       spriteId: 22e277878131c4443bee8ac452d12605
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_230
+    - name: Frame_230
       frameIndex: 230
+      additiveSortOrder: 0
       cellRect:
         x: 140
         y: 1
         width: 44
         height: 52
       spriteId: cf35116eebc538d4095478d517e5edbe
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_231
+    - name: Frame_231
       frameIndex: 231
+      additiveSortOrder: 0
       cellRect:
         x: 140
         y: 1
         width: 44
         height: 52
       spriteId: 8e72a153936ef634780e13a53361823d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_232
+    - name: Frame_232
       frameIndex: 232
+      additiveSortOrder: 0
       cellRect:
         x: 134
         y: 1
         width: 37
         height: 44
       spriteId: 7a2bb60396ee43847ad273cd2b945eaf
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_233
+    - name: Frame_233
       frameIndex: 233
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 45
         height: 44
       spriteId: 9c65b0bf58c61fc4fb2c5cfd09713adc
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_234
+    - name: Frame_234
       frameIndex: 234
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 39
         height: 42
       spriteId: 68691850d5707b84b805654c60f98d4d
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_235
+    - name: Frame_235
       frameIndex: 235
+      additiveSortOrder: 0
       cellRect:
         x: 121
         y: 1
         width: 39
         height: 42
       spriteId: 027b7c2c28c10b448b468c9e0d299b30
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_236
+    - name: Frame_236
       frameIndex: 236
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 39
         height: 50
       spriteId: cff4ba9711c2f26458bb4da1f8b11133
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_237
+    - name: Frame_237
       frameIndex: 237
+      additiveSortOrder: 0
       cellRect:
         x: 112
         y: 1
         width: 36
         height: 50
       spriteId: 1ef2e23cb4d47d44781772446d792a84
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_238
+    - name: Frame_238
       frameIndex: 238
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 36
         height: 50
       spriteId: 83ce52fbb49950649b4c6edf052525ae
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_239
+    - name: Frame_239
       frameIndex: 239
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: 2d1a5f92af173c643ba20e61f979977e
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_240
+    - name: Frame_240
       frameIndex: 240
+      additiveSortOrder: 0
       cellRect:
         x: 119
         y: 1
         width: 48
         height: 44
       spriteId: ab1a181bf5d91364ca5cdf3afa0774b8
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_241
+    - name: Frame_241
       frameIndex: 241
+      additiveSortOrder: 0
       cellRect:
         x: 122
         y: 1
         width: 58
         height: 42
       spriteId: b4e23ed53ee409048991adf3a7f4da73
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_242
+    - name: Frame_242
       frameIndex: 242
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 1
         width: 56
         height: 39
       spriteId: afcaa9211905db844a66c90c977ae7e7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_243
+    - name: Frame_243
       frameIndex: 243
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 1
         width: 48
         height: 34
       spriteId: b08470e65d5a8d649a60d8b816e5eb54
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_244
+    - name: Frame_244
       frameIndex: 244
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 1
         width: 46
         height: 33
       spriteId: 7ac6a298e7c26174cbbff920b67c3359
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_245
+    - name: Frame_245
       frameIndex: 245
+      additiveSortOrder: 0
       cellRect:
         x: 129
         y: 1
         width: 47
         height: 33
       spriteId: 345ca8c998a460143a3d3997f204fd5c
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_246
+    - name: Frame_246
       frameIndex: 246
+      additiveSortOrder: 0
       cellRect:
         x: 128
         y: 1
         width: 49
         height: 33
       spriteId: 8d427cac588ccb6469733ea6acaeafc7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_247
+    - name: Frame_247
       frameIndex: 247
+      additiveSortOrder: 0
       cellRect:
         x: 128
         y: 1
         width: 48
         height: 33
       spriteId: a743c9af0681368469681c7785de9190
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_248
+    - name: Frame_248
       frameIndex: 248
+      additiveSortOrder: 0
       cellRect:
         x: 128
         y: 1
         width: 47
         height: 33
       spriteId: cd72f6667b8c84240ba44319f72954cf
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_249
+    - name: Frame_249
       frameIndex: 249
+      additiveSortOrder: 0
       cellRect:
         x: 128
         y: 1
         width: 47
         height: 33
       spriteId: 7a28462d99fdc144e9b7783eea92e528
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_250
+    - name: Frame_250
       frameIndex: 250
+      additiveSortOrder: 0
       cellRect:
         x: 130
         y: 1
         width: 45
         height: 33
       spriteId: 3e345e2768929714abf167aaef2826d7
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_251
+    - name: Frame_251
       frameIndex: 251
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 43
         height: 27
       spriteId: 576f14ecc48044745be10fd95f839bcb
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_252
+    - name: Frame_252
       frameIndex: 252
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 51
         height: 11
       spriteId: fd8da255dc54c5746ae78c4644a86e74
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_253
+    - name: Frame_253
       frameIndex: 253
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 56
         height: 7
       spriteId: 652eb5b31296ac0479de8c2679ead888
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_254
+    - name: Frame_254
       frameIndex: 254
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 57
         height: 6
       spriteId: 13ef6fd32c6933f4c96c65c07219f90f
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_255
+    - name: Frame_255
       frameIndex: 255
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 58
         height: 6
       spriteId: da8f24a4449d581419a07a637415b3cc
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_256
+    - name: Frame_256
       frameIndex: 256
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 58
         height: 6
       spriteId: 361a8a907aacb044592f2536f113a750
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_257
+    - name: Frame_257
       frameIndex: 257
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
         width: 58
         height: 6
       spriteId: b9f5ce1c7ffc5de40a22d1616459b671
-    - name: Elementals_leaf_ranger_free_v1.0_Frame_258
+    - name: Frame_258
       frameIndex: 258
+      additiveSortOrder: 0
       cellRect:
         x: 132
         y: 1
@@ -7383,6 +7644,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 288, y: 128}

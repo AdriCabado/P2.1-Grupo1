@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1308,472 +1310,531 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: projectiles_and_effects_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 112
         y: 63
         width: 32
         height: 3
       spriteId: ae09a0e70528abb4093969d0bb4aa9a6
-    - name: projectiles_and_effects_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 61
         width: 27
         height: 11
       spriteId: 674af7aa5573b0741a68505a19868acc
-    - name: projectiles_and_effects_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 60
         width: 27
         height: 8
       spriteId: c005aa9ee8d591f499f1584616da546f
-    - name: projectiles_and_effects_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 61
         width: 28
         height: 7
       spriteId: 77ec0f48c133ef94fb2529be95fb7e13
-    - name: projectiles_and_effects_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 61
         width: 28
         height: 7
       spriteId: bba37b24d8d95b147a1a54a6f4b68370
-    - name: projectiles_and_effects_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 61
         width: 28
         height: 7
       spriteId: acdf8fd226345f243ae7a05fc1935299
-    - name: projectiles_and_effects_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 61
         width: 28
         height: 7
       spriteId: b6943f8bff3b3594d82cf835cf21a002
-    - name: projectiles_and_effects_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 61
         width: 27
         height: 11
       spriteId: 30db6007ae173c84fa71081530519df6
-    - name: projectiles_and_effects_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 55
         width: 40
         height: 14
       spriteId: 150a601af8915d14e9b4f4a438e4f486
-    - name: projectiles_and_effects_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 36
         width: 57
         height: 35
       spriteId: ee5ffdcfe8b747f44b1e03ed2cd26e40
-    - name: projectiles_and_effects_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 31
         width: 74
         height: 38
       spriteId: f7a4a0a850192f14f9143a12e2d98a51
-    - name: projectiles_and_effects_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 31
         width: 77
         height: 38
       spriteId: aa30bd8d6feedde4589d2de4ec687b63
-    - name: projectiles_and_effects_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 31
         width: 79
         height: 40
       spriteId: 04a40a943fce66b4eb740828953d3770
-    - name: projectiles_and_effects_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 31
         width: 79
         height: 40
       spriteId: aaf5585883e17244c9de93d7096c318d
-    - name: projectiles_and_effects_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 31
         width: 79
         height: 40
       spriteId: 9096fd65c91eb2846a96190542e7de60
-    - name: projectiles_and_effects_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 61
         width: 27
         height: 11
       spriteId: 982fc6f3a016dbe4c9716ce12cf3c61b
-    - name: projectiles_and_effects_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 59
         width: 37
         height: 10
       spriteId: 9ecb75c4492049b4e892789daa6e2d6c
-    - name: projectiles_and_effects_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 54
         width: 42
         height: 22
       spriteId: eabff0f2bbb8da142b525660779eb9c7
-    - name: projectiles_and_effects_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 46
         width: 57
         height: 38
       spriteId: f8efa9081557aef40a43b440f31f2a9b
-    - name: projectiles_and_effects_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 44
         width: 57
         height: 46
       spriteId: 275f3fda6debd314c827f3a21f8a0bfb
-    - name: projectiles_and_effects_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 42
         width: 61
         height: 54
       spriteId: d46bdbf61b3e9804ab9becfe5ac519ea
-    - name: projectiles_and_effects_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 40
         width: 64
         height: 62
       spriteId: 5c035e2b8b059044494ca0797e159ebf
-    - name: projectiles_and_effects_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 54
         width: 42
         height: 22
       spriteId: eadf7332e8f74a943acd86c2757f470c
-    - name: projectiles_and_effects_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 114
         y: 51
         width: 27
         height: 27
       spriteId: cf3a08f5d0fd2fd40ba4d8c0c625f929
-    - name: projectiles_and_effects_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 54
         width: 17
         height: 24
       spriteId: 57f5fa59497bc5e488571b9aeb7442a6
-    - name: projectiles_and_effects_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 54
         width: 26
         height: 15
       spriteId: fd87664b71e0071418010b38f99bf0d7
-    - name: projectiles_and_effects_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 54
         width: 22
         height: 21
       spriteId: 9f68b0bab8bd91d4eb286194df1f5930
-    - name: projectiles_and_effects_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 54
         width: 26
         height: 19
       spriteId: d821a73ea30dee140bcf677b0969867a
-    - name: projectiles_and_effects_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 117
         y: 54
         width: 25
         height: 21
       spriteId: 3c99de1cea762f24289e318a759db4dd
-    - name: projectiles_and_effects_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 117
         y: 54
         width: 25
         height: 21
       spriteId: de6cd1961380b1941b0d38d092ff5c00
-    - name: projectiles_and_effects_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 125
         y: 54
         width: 17
         height: 24
       spriteId: 6533659b585c7dc468f60d89fa47f814
-    - name: projectiles_and_effects_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 54
         width: 28
         height: 15
       spriteId: 0745920e7e817f249a93be77076e2718
-    - name: projectiles_and_effects_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 120
         y: 54
         width: 26
         height: 21
       spriteId: fbd96881979ef464d9f5ac4a10813fc1
-    - name: projectiles_and_effects_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 54
         width: 34
         height: 19
       spriteId: 56e5d73e21fc8cc4a965ef0128c9d225
-    - name: projectiles_and_effects_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 54
         width: 50
         height: 34
       spriteId: e5ea7b55b9f12ac49b0a389a11507351
-    - name: projectiles_and_effects_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 54
         width: 50
         height: 34
       spriteId: 8b3904576367b94479ca6a12bbe068d7
-    - name: projectiles_and_effects_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 54
         width: 50
         height: 34
       spriteId: 9d66bfca0ca90f94f8776404aa2a2761
-    - name: projectiles_and_effects_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 54
         width: 50
         height: 34
       spriteId: 0a6854a5731f4aa4ab556ed78a03f60d
-    - name: projectiles_and_effects_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 112
         y: 46
         width: 47
         height: 74
       spriteId: c6c8f0ab8e470704e9b0c18fcc21eee1
-    - name: projectiles_and_effects_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 94
         y: 1
         width: 68
         height: 122
       spriteId: c780da27c886ae4419acc8b5985153d4
-    - name: projectiles_and_effects_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 96
         y: 1
         width: 66
         height: 120
       spriteId: 13679ade321d3bd44a724be7ef3082a6
-    - name: projectiles_and_effects_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 95
         y: 1
         width: 67
         height: 119
       spriteId: a89d7a2ff5f86f247ab9c9536080fd67
-    - name: projectiles_and_effects_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 77
         y: 1
         width: 85
         height: 118
       spriteId: 5dc8fc0e2d0080a41b25f703b3937794
-    - name: projectiles_and_effects_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 1
         width: 84
         height: 122
       spriteId: 9580989503944da4e87bcccf8de0ec43
-    - name: projectiles_and_effects_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 96
         y: 1
         width: 70
         height: 122
       spriteId: 570b88975c9c52846ac50ea9f1b338cc
-    - name: projectiles_and_effects_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 94
         y: 1
         width: 79
         height: 120
       spriteId: fd803f4349ad96e48a6d0515dff4e123
-    - name: projectiles_and_effects_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 96
         y: 1
         width: 72
         height: 120
       spriteId: 6d871e8b8de265d47ba4aa872b1ef73e
-    - name: projectiles_and_effects_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 95
         y: 1
         width: 68
         height: 53
       spriteId: a140e70b77599344e9f89b55501c2fb7
-    - name: projectiles_and_effects_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 96
         y: 1
         width: 68
         height: 13
       spriteId: 3f4770f5378758f479d30cf9bc45a9f4
-    - name: projectiles_and_effects_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 97
         y: 1
         width: 61
         height: 19
       spriteId: f20ef633e5d90fa468b956b6b5725c0d
-    - name: projectiles_and_effects_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 95
         y: 1
         width: 43
         height: 12
       spriteId: 7cde39291b275384ba102e8cb18a3332
-    - name: projectiles_and_effects_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 14
         height: 9
       spriteId: 9d5057553756aa1428bbc363d2b217ec
-    - name: projectiles_and_effects_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 108
         y: 1
         width: 7
         height: 7
       spriteId: 6139a78aeb76e3b48a2b837de95fa1d3
-    - name: projectiles_and_effects_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 8
         height: 3
       spriteId: 3235bb84efae16a42b213ee9cb167dec
-    - name: projectiles_and_effects_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 108
         y: 1
         width: 5
         height: 1
       spriteId: 85c4a628404ed9646810bad7860b2efe
-    - name: projectiles_and_effects_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 57
         width: 256
         height: 15
       spriteId: e546cacfacaafcf429625dde4c4e572f
-    - name: projectiles_and_effects_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 63
         width: 256
         height: 4
       spriteId: 8f95410e1d050ba4e906ae09b64dd5e1
-    - name: projectiles_and_effects_Frame_58
+    - name: Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 64
         width: 256
         height: 1
       spriteId: d17b0e7376d82c045bd0c2cfe0ab499a
-    - name: projectiles_and_effects_Frame_59
+    - name: Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 64
@@ -1783,6 +1844,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 256, y: 128}

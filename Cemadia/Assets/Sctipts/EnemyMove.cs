@@ -5,17 +5,20 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
+    //Si salió volando ya no puede seguir atacando
+    public bool volando=false;
    public float velocidad = 5f; // Velocidad de movimiento
     public float limiteElf; // Límite máximo para moverse a la izquierda
     public float limiteTree;
-    [SerializeField] GameObject tree;
     public Animator animator;
     private SpriteRenderer spriteRendererElf;
-    private SpriteRenderer spriteRendererTree;
     private bool treeAttack;
+    private GameObject tree;
+    private GameObject enemySpawner;
     private void Start() {
         spriteRendererElf=GameObject.Find("idle_1").GameObject().GetComponent<SpriteRenderer>();
-        spriteRendererTree=GameObject.Find("tree5").GameObject().GetComponent<SpriteRenderer>();
+        tree=GameObject.Find("Final Tree");
+        enemySpawner=GameObject.Find("EnemySpawner");
         //Comprobando si el ataque va para el arbol o el elfo dependiendo de la altura
         if(transform.position.y>=-2){
             treeAttack=true;
@@ -25,10 +28,16 @@ public class EnemyMove : MonoBehaviour
     }
     void Update()
     {
+        if(transform.position.y <= -10){
+            Destroy(gameObject);
+        }
+        if(volando){
+            animator.Play("EnemyAnimation");
+        }
         // Verifica si ha llegado al límite izquierdo, si es así ataca
-        if (transform.position.x <= limiteElf && !treeAttack){
+        if (transform.position.x <= limiteElf && !treeAttack && !volando){
             animator.Play("Attackanim");
-        }else if(transform.position.x <= limiteTree && treeAttack){
+        }else if(transform.position.x <= limiteTree && treeAttack && !volando){
             animator.Play("Attackanim");
         }else{
             transform.Translate(Vector3.left * velocidad * Time.deltaTime);
@@ -37,18 +46,17 @@ public class EnemyMove : MonoBehaviour
     }
     public void Damage(){
         if(treeAttack){
-            spriteRendererTree.color=Color.red;
-            Debug.Log("Daño");
+            tree.GetComponent<TreeSctipt>().HitTree();
         }else{
             spriteRendererElf.color=Color.red;
+            enemySpawner.GetComponent<EnemySpawner>().lifeLost();
         }
         
         
     }
     public void DamageFinish(){
         if(treeAttack){
-            spriteRendererTree.color=Color.white;
-            Debug.Log("Daño acabado");
+            
         }else{
             spriteRendererElf.color=Color.white;
         }
