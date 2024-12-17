@@ -6,7 +6,7 @@ public class ArrowShootScript : MonoBehaviour
 {
    public GameObject arrowPrefab; // El prefab de la flecha
     public Transform arrowSpawnPoint; // Punto de salida de la flecha
-    public float arrowSpeed = 10f; // Velocidad de la flecha
+    public float arrowSpeed = 15f; // Velocidad de la flecha
 
    
     public void Shoot()

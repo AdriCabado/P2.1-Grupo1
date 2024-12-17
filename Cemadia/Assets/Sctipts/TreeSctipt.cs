@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Serialization;
+
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TreeSctipt : MonoBehaviour
 {
     private int numberOfBranches;
+    [SerializeField] GameObject gameOver;
     public GameObject[] branches;
 [SerializeField] private GameObject fire;
     private GameObject selectedBranch;
@@ -40,7 +40,12 @@ public class TreeSctipt : MonoBehaviour
         }else{
             fire.SetActive(true);
             GameObject.Find("idle_1").GetComponent<Animator>().Play("Death");
+            gameOver.SetActive(true);
+            Invoke("SwapScene", 2f);
         }
+    }
+    private void SwapScene(){
+        SceneManager.LoadScene("MenuInicio");
     }
     
 }

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
+    [SerializeField] GameObject gameOver;
     private int score=0;
     [SerializeField] Text text;
     public GameObject enemyPrefab1; // Enemigo que spawnea desde un solo punto
@@ -35,7 +37,13 @@ public class EnemySpawner : MonoBehaviour
         //Comprobamos si spareLives es menor que 0
         //por si se da el caso raro de que dos fantasmas llamen en el mismo 
         //frame a esta función y spareLives es 1
-        if(spareLives < 0) {
+        if(spareLives <= 0) {
+            if(spareLives==0){
+                lifeBoard[spareLives].SetActive(false);
+            }else{
+                SceneManager.LoadScene("MenuInicio");
+            }
+            gameOver.SetActive(true);
             GameObject.Find("idle_1").GetComponent<Animator>().Play("Death");
             fire.SetActive(true);
             Debug.Log("Perdichessssss");
