@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
+    [SerializeField] GameObject gameOver;
+    private int score=0;
+    [SerializeField] Text text;
     public GameObject enemyPrefab1; // Enemigo que spawnea desde un solo punto
     public GameObject enemySign1;
     public GameObject enemyPrefab2; // Enemigo que spawnea desde dos puntos
@@ -19,15 +24,27 @@ public class EnemySpawner : MonoBehaviour
     void Start() {
         InvokeRepeating("SpawnEnemies", 0f, spawnInterval);
     }
-        
+
+
+    public void addScore(int points)
+    {
+        score+=points;
+        text.text=score.ToString("D6");
+    }
     public void lifeLost(){
         spareLives--;
 
         //Comprobamos si spareLives es menor que 0
         //por si se da el caso raro de que dos fantasmas llamen en el mismo 
         //frame a esta función y spareLives es 1
-        if(spareLives < 0) {
-            Destroy(GameObject.Find("Elf"));
+        if(spareLives <= 0) {
+            if(spareLives==0){
+                lifeBoard[spareLives].SetActive(false);
+            }else{
+                SceneManager.LoadScene("MenuInicio");
+            }
+            gameOver.SetActive(true);
+            GameObject.Find("idle_1").GetComponent<Animator>().Play("Death");
             fire.SetActive(true);
             Debug.Log("Perdichessssss");
         }else{
@@ -37,7 +54,7 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemies()
     {
-        if(Random.value<0.5){
+        if(Random.value<0.3){
         // Spawnear el primer enemigo desde un solo punto
         Instantiate(enemyPrefab1, spawnPoint1.position, Quaternion.identity);
         GameObject gb= Instantiate(enemySign1, enemy1ArrowPoint.position, Quaternion.identity);
